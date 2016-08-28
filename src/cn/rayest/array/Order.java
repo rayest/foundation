@@ -10,8 +10,8 @@ public class Order {
         printArray(data);
     }
     public static void orderArray(int[] data){
-        for (int i = 0; i < data.length - 1; i++) {
-            for (int j = 0; j < data.length - 1; j++) {
+        for (int i = 0; i < data.length - 1; i++) { // 循环次数
+            for (int j = 0; j < data.length - 1; j++) { // 比较次数
                 int tmp;
                 if (data[j] > data[j + 1]){
                     tmp = data[j];
