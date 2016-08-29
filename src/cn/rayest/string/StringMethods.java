@@ -47,10 +47,10 @@ public class StringMethods {
     }
 
     // 自定义首字母大写方法
-    public static String initCap(String str){
-        if (str == null || (str.length() == 0)){
+    public static String initCap(String str) {
+        if (str == null || (str.length() == 0)) {
             return str;
         }
-        return str.substring(0,1).toUpperCase() + str.substring(1);
+        return str.substring(0, 1).toUpperCase() + str.substring(1);
     }
 }
