@@ -6,6 +6,6 @@ package cn.rayest.java8.lambda;
 public class LambdaImpl implements Lambda {
     @Override
     public void showLambda() {
-
     }
+
 }
