@@ -9,7 +9,7 @@ package cn.rayest.java8.lambda;
  */
 public class Application {
     public static void main(String[] args) {
-        // 1. 匿名内部类，实例化接口
+        // 1. 匿名内部类，实例化接口，普通的方法调用
         showLambda(new Lambda() {
             @Override
             public void showLambda() {
@@ -17,11 +17,17 @@ public class Application {
             }
         });
 
-        // 2. lambda 表达式
+        // 2. lambda 表达式：单行表达式
         showLambda(() -> System.out.println("This is also lambda expression"));
 
-        // 3. lambda 表达式
-        showLambdaDouble((s) -> System.out.println(s));
+        // 3. lambda 表达式：多行表达式
+        showLambdaDouble((s) -> {
+            s = s.toUpperCase();
+            System.out.println(s);
+        });
+
+        // 4.lambda 表达式
+        add((s1, s2) -> s1 + s2);
     }
 
     public static void showLambda(Lambda lambda) {
@@ -32,5 +38,7 @@ public class Application {
         lambdaDouble.showLambdaDouble("showLambdaDouble()");
     }
 
-
+    public static void add(LambdaAdd lambdaAdd) {
+        System.out.println(lambdaAdd.add(10, 20));
+    }
 }
