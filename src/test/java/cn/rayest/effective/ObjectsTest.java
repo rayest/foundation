@@ -19,5 +19,4 @@ public class ObjectsTest {
         Objects objects = new Objects();
         assertEquals(objects.s, "You created an unnecessary string content");
     }
-    
 }
