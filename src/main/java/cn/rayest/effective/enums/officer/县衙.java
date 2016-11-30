@@ -1,4 +1,4 @@
-package cn.rayest.effective.enums;
+package cn.rayest.effective.enums.officer;
 
 /**
  * Created by Rayest on 2016/11/29 0029.

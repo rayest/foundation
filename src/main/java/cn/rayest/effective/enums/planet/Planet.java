@@ -1,4 +1,4 @@
-package cn.rayest.effective.enums;
+package cn.rayest.effective.enums.planet;
 
 /**
  * Created by Rayest on 2016/11/28 0028.

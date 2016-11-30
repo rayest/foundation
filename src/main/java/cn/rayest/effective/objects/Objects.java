@@ -1,4 +1,4 @@
-package cn.rayest.effective;
+package cn.rayest.effective.objects;
 
 /**
  * Created by Rayest on 2016/11/27 0027.
