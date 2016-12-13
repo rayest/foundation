@@ -1,4 +1,4 @@
-package cn.rayest.java8.chap3;
+package cn.rayest.java8.chap3.functionComposite;
 
 import java.util.function.Function;
 
