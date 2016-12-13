@@ -22,5 +22,4 @@ public class Letter {
         Function<String, String> addHeader = Letter::addHeader;
         Function<String, String> transformationPipeline = addHeader.andThen(Letter::checkSpelling).andThen(Letter::addFooter);
     }
-
 }
