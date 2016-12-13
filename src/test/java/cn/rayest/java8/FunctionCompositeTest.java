@@ -14,4 +14,10 @@ public class FunctionCompositeTest {
         FunctionComposite functionComposite = new FunctionComposite();
         assertEquals(4, functionComposite.getAndThen());
     }
+
+    @Test
+    public void testGetCompose() throws Exception {
+        FunctionComposite functionComposite = new FunctionComposite();
+        assertEquals(3, functionComposite.getCompose());
+    }
 }
